@@ -1,12 +1,15 @@
 [workspace]
 resolver = "2"
+
 members = [
-  "contracts/*",
+    "contracts/*",
 ]
 
 [workspace.dependencies]
+# Soroban SDK version
 soroban-sdk = "25"
 
+# Optimized build configuration for Stellar Soroban contracts
 [profile.release]
 opt-level = "z"
 overflow-checks = true
@@ -17,7 +20,7 @@ panic = "abort"
 codegen-units = 1
 lto = true
 
-# For more information about this profile see https://soroban.stellar.org/docs/basic-tutorials/logging#cargotoml-profile
+# Release profile with logs enabled for debugging and testing
 [profile.release-with-logs]
 inherits = "release"
 debug-assertions = true
