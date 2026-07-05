@@ -1,106 +1,172 @@
-# stellar-CDT-app
-a stellar smart contract project
+# 🌟 Stellar Charity Donation Tracker  
+## Decentralized Charity Donation Tracking System using Soroban Smart Contracts
 
-🌐 Digital Identity Manager DApp
+A **blockchain-powered charity donation tracking platform** built on the **Stellar Network using Soroban Smart Contracts**. This project focuses on bringing **transparency, accountability, and trust** into charitable donations by recording donation activities securely on-chain.
 
-A decentralized application (DApp) that allows users to securely create, manage, and verify their digital identity on the blockchain. This project ensures privacy, ownership, and tamper-proof identity management using smart contracts.
+The system enables donors and organizations to track contributions in a decentralized way, ensuring that every transaction is verifiable, tamper-proof, and publicly accessible through the Stellar blockchain.
 
-📌 Project Description
+---
 
-The Digital Identity Manager is a blockchain-based solution designed to give users full control over their digital identity. Instead of relying on centralized authorities, users can store and manage identity-related information securely on-chain.
+## 📸 Project Preview
 
-This DApp eliminates risks like data breaches, identity theft, and unauthorized access by leveraging decentralized technology.
+<img width="1920" height="1080" alt="Dashboard Screenshot" src="https://github.com/user-attachments/assets/fd0d3bd7-2ec2-4580-940b-4a512b31bda1" />
 
-🚀 What It Does
+<img width="1372" height="729" alt="Contract Screenshot" src="https://github.com/user-attachments/assets/5ec38625-86fd-4c71-bf5e-b10aa106fc4a" />
 
-🆔 Create a unique digital identity
+---
 
-🔐 Store identity data securely on blockchain
+## 🚀 About The Project
 
-✏️ Update identity information anytime
+Traditional charity systems often lack transparency regarding fund collection and usage. **Stellar Charity Donation Tracker** solves this problem by leveraging blockchain technology to create a secure and transparent donation management system.
 
-✅ Verify identity without third-party involvement
+Every donation record is stored using a **Soroban smart contract**, allowing users to verify transactions directly from the Stellar Testnet.
 
-🔍 Retrieve identity details instantly
+---
 
-✨ Features
+## ✨ Features
 
-Decentralized identity storage
+- 💰 **Transparent Donation Tracking**
+  - Track donations securely through blockchain records
 
-Smart contract-based authentication
+- 🔐 **Decentralized Smart Contract**
+  - Powered by Stellar Soroban smart contracts
 
-User-controlled data privacy
+- 🌍 **Public Verification**
+  - Anyone can verify transactions on Stellar Testnet
 
-Tamper-proof records
+- ⚡ **Fast & Low-Cost Transactions**
+  - Uses Stellar blockchain infrastructure
 
-Easy-to-use frontend interface
+- 📊 **Donation Management**
+  - Maintain reliable records of charity contributions
 
-Wallet integration (MetaMask / compatible wallets)
-
-🛠️ Tech Stack
-
-Frontend: HTML, CSS, JavaScript
-
-Blockchain: Stellar Soroban / Smart Contracts
-
-Wallet Integration: Compatible Web3 Wallet
-
-Deployment: Morph / Cloud environment
-
-🧪 How to Use
-
-Connect your wallet
-
-Create your digital identity
-
-Update or manage your data
-
-Verify identity when needed
-
-🔒 Security Highlights
-
-No centralized data storage
-
-Immutable blockchain records
-
-User-only access control
-
-Encrypted transaction flow
-
-📸 Screenshots (Optional)
-
-<img width="1920" height="1080" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/fd0d3bd7-2ec2-4580-940b-4a512b31bda1" />
-<img width="1372" height="729" alt="Screenshot 2026-03-20 150241" src="https://github.com/user-attachments/assets/5ec38625-86fd-4c71-bf5e-b10aa106fc4a" />
+- 🛡️ **Tamper-Proof Records**
+  - Blockchain-based immutable storage
 
 
+---
 
-🤝 Contributing
+## 🛠️ Tech Stack
 
-Contributions are welcome! Feel free to fork this repo and submit a pull request.
+### Blockchain
+- Stellar Network
+- Soroban Smart Contracts
+- Rust
+- Stellar Testnet
 
-🔗Smart Contract link 
-https://lab.stellar.org/smart-contracts/contract-explorer?$=network$id=testnet&label=Testnet&horizonUrl=https:////horizon-testnet.stellar.org&rpcUrl=https:////soroban-testnet.stellar.org&passphrase=Test%20SDF%20Network%20/;%20September%202015;&smartContracts$explorer$contractId=CD7LDCCXH243F6VXREOMBARCUHGNRTHYKWFWYD7B2NRKQUBBPPSBACG6;;
+### Development Tools
+- Stellar Laboratory
+- Soroban CLI
+- GitHub
+- Web3 Technologies
 
-📢Contract Address:
+
+---
+
+## 🔗 Smart Contract Details
+
+### 🌐 Network
+
+```
+Stellar Testnet
+```
+
+### 📢 Contract Address
+
+```bash
 CD7LDCCXH243F6VXREOMBARCUHGNRTHYKWFWYD7B2NRKQUBBPPSBACG6
+```
 
-📜 License
+### 🔍 Contract Explorer
 
-This project is licensed under the MIT License.
+```
+https://lab.stellar.org/smart-contracts/contract-explorer?$=network$id=testnet&label=Testnet&horizonUrl=https:////horizon-testnet.stellar.org&rpcUrl=https:////soroban-testnet.stellar.org&passphrase=Test%20SDF%20Network%20/;%20September%202015;&smartContracts$explorer$contractId=CD7LDCCXH243F6VXREOMBARCUHGNRTHYKWFWYD7B2NRKQUBBPPSBACG6;;
+```
 
-💡 Future Improvements
+---
 
-Multi-chain support
+## ⚙️ How It Works
 
-Biometric verification integration
+1. User creates a donation transaction  
+2. Smart contract processes donation data  
+3. Donation information is stored on Stellar blockchain  
+4. Anyone can verify records through the Stellar explorer  
+5. Ensures complete transparency between donors and charities  
 
-NFT-based identity representation
+---
 
-Mobile app version
+## 📂 Project Structure
 
-🙌 Acknowledgements
+```bash
+Stellar-Charity-Donation-Tracker/
 
-Stellar & Soroban ecosystem
+│── contracts/
+│   └── charity_contract/
+│       └── src/
+│           └── lib.rs
+│
+│── target/
+│── README.md
+│── Cargo.toml
+│── LICENSE
+```
 
-Web3 developer community
+---
 
+## 🌎 Blockchain Benefits
+
+✔ Removes middle-party dependency  
+✔ Builds donor trust  
+✔ Prevents data manipulation  
+✔ Provides open transaction history  
+✔ Enables decentralized charity management  
+
+---
+
+## 🚀 Future Improvements
+
+- 🌐 Multi-chain support
+- 📱 Mobile application
+- 🔔 Real-time donation notifications
+- 🤖 AI-powered charity analytics
+- 🪪 Donor verification system
+- 🎖️ NFT-based donation certificates
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+If you want to improve this project:
+
+1. Fork the repository  
+2. Create your feature branch  
+3. Commit your changes  
+4. Submit a Pull Request  
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🙌 Acknowledgements
+
+Special thanks to:
+
+- ⭐ Stellar Development Foundation
+- ⭐ Soroban Smart Contract Ecosystem
+- ⭐ Web3 Developer Community
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving the repository a ⭐ and supporting blockchain-based transparent charity solutions.
+
+---
+
+### Built with ❤️ using Stellar + Soroban
